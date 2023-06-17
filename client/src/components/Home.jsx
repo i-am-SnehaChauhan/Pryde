@@ -44,8 +44,8 @@ const Home = () => {
             </a>
           </li>
           <li className="nav__item">
-            <a href="#speakers" className="nav__link">
-              Schedule
+            <a href="/accounts" className="nav__link">
+              Login
             </a>
           </li>
           <li>
