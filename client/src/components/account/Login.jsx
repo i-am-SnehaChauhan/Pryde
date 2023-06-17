@@ -12,7 +12,8 @@ const Component = styled(Box)`
  
 `
 const Image = styled('img')({
-  width: 500,
+  width: 300,
+  alignContent: 'center',
   display: 'flex',
   margin: 'auto',
   padding: '10px',
@@ -47,8 +48,8 @@ const Login = () => {
       <Box>
         <Image src={imageURL} alt="Login" />
         <Wrapper>
-          <TextField variant="standard" />
-          <TextField variant="standard" />
+          <TextField variant="standard" label="Username"/>
+          <TextField variant="standard" label="Passward"/>
           <LoginButton variant="contained">Login</LoginButton>
           <Typography style={{textAlign: 'center'}}>OR</Typography>
           <SignUpButton>Create an Account</SignUpButton>
