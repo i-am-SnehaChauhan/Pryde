@@ -213,7 +213,7 @@ const Home = () => {
         <div class="decoration__data team_data">
           <img src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687075071/WhatsApp_Image_2023-06-18_at_1.24.29_PM_d7tjzm.jpg" alt="" class="decoration__img" id="team_render"/>
           <h3 class="decoration__title">Sneha Chauhan</h3>
-          <p>tagline</p>
+          <p>Empowering Minds, Elevating Lives: The Optimistic Developer</p>
         </div>
         <div class="decoration__data team_data">
           <img src="https://hygenie-gsc.netlify.app/img/Team/Karan-Taneja.jpeg" alt="" class="decoration__img" id="team_render"/>
