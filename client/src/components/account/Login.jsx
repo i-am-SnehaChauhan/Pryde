@@ -6,7 +6,6 @@ import imageURL from '../../images/blog.png'
 const Component = styled(Box)`
   width: 400px;
   margin: auto;
-  margin-top: 80px;
   justify-content: center;
   box-shadow: 5px 0 10px 0 rgba(0,0,0,0.5);
  

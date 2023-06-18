@@ -9,7 +9,7 @@ const Home = () => {
   {/*========== HEADER ==========*/}
   <header className="l-header" id="header">
     <nav className="nav bd-container">
-      <a href="#home" className="nav__logo">
+      <a href="/" className="nav__logo">
         Devcation 2022
       </a>
       <div className="nav__menu" id="nav-menu">
@@ -31,7 +31,7 @@ const Home = () => {
           </li>
           {/* <li class="nav__item"><a href="#timeline" class="nav__link">Timeline</a></li> */}
           <li className="nav__item">
-            <a href="#sponsors" className="nav__link">
+            <a href="/readingarea" className="nav__link">
               Sponsors
             </a>
           </li>
