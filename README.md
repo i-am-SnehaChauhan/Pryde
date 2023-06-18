@@ -20,7 +20,7 @@ Motivated by our newfound awareness and fueled by a shared passion for promoting
 
 With this project, we aspire to create a platform that not only addresses the specific concerns and experiences of LGBTQ+ individuals but also fosters a sense of belonging, acceptance, and empowerment. Our ultimate goal is to ensure that no one within the LGBTQ+ community feels alone or left in the dark when it comes to their sexual health. We believe that by providing accurate information, fostering open dialogue, and promoting safe practices, we can contribute to the physical and mental well-being of the community we hold dear.
 
-## Components of Website
+# Components of Website
 
 ### Landing page
  <p>When you visit our website, you'll be greeted by an engaging landing page that captures the essence of Pryde.</p>
@@ -31,14 +31,30 @@ With this project, we aspire to create a platform that not only addresses the sp
  
  ![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/cb92a7fa-5dff-4019-ac1d-43e87ba9d545)
 
-## Key Features✨
-<p>Our platform provides Pryde Bot, Reading Area and Forum</p>.
+# Key Features✨
 
-![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/8df0cda4-fe7a-4784-9f24-4db9f7554e25)
+### Inclusibot
+* InclusiBot provides accurate sexual education info, support, and guidance for LGBTQ+ community in a user-friendly, inclusive manner.
+* Built with Streamlit framework, Cohere API for keyword extraction, and Microsoft Azure Translator API for text translation.
+* Utilizes Cohere API to extract keywords, matches them with verified answers from verified health database, and uses Azure Translator API for multilingual responses.
+
+![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/f4514719-73d3-40ee-a2f4-dff3bc636f93)
 
 
+### The Pryde Reading Area
+* Offering reliable, informative, and trustworthy content to promote knowledge and understanding.
+* Ensuring that the articles presented are specifically tailored to address the needs and interests of the LGBTQ+ community.
+* Focus on 2 broad categories - Safer Sex and Sexual Health and LGBTQ+ Relationships
 
-<h2 align='center'> Technology Stack Used</h2>
+  ![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/2de8bc21-3b35-4eb1-963d-d54773c8ab4f)
+
+
+### Forum D'amour (Forum of Love)
+* Connect with like-minded people and know about commonly faced issues related to sexual health, hygenie and relationships
+* Give and receive love at our forum of love!
+
+
+<h1 align='center'> Technology Stack Used</h1>
 <div align="center">
  <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white">
  <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white">
@@ -51,6 +67,6 @@ With this project, we aspire to create a platform that not only addresses the sp
  <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white">
 </div>
 
-<h2 align='cener'>Contibutors</h2>
+<h1 align='center'>Contibutors</h1>
 
 ![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/d6697bb7-dd02-453c-b7a3-40fa5bcddc69)
