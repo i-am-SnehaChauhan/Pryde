@@ -373,7 +373,6 @@ img {
 #burger_render {
   width: 300px;
   margin-bottom: 1.3rem;
-  margin-left: 3rem;
 }
 
 #milk_render {
@@ -1103,4 +1102,80 @@ time {
   list-style-type: disc;
   text-align: start;
   padding-left:2vw;
+}
+
+img.vert-move {
+  -webkit-animation: mover 0.5s infinite  alternate;
+  animation: mover 0.5s infinite  alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 0.5s infinite  alternate;
+  animation: mover 0.5s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+/* Team */
+
+
+.team-grid {
+  display: grid;
+  gap: 1rem;
+  margin: auto;
+}
+
+.team_data{
+  width: 220px;
+  justify-self: center;
+}
+
+#team_render{
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 1.3rem;
+}
+
+.move-round {
+  -webkit-animation:spin 3s linear infinite;
+  -moz-animation:spin 3s linear infinite;
+  animation:spin 3s linear infinite;
+}
+@-moz-keyframes spin { 
+  0% {-moz-transform: rotate(-20deg);}
+  25% {-moz-transform: rotate(20deg);}
+  50% {-moz-transform: rotate(20deg);}
+  100% { -moz-transform: rotate(-20deg); } 
+}
+@-webkit-keyframes spin { 
+  0% { -webkit-transform: rotate(-20deg); } 
+  25% { -webkit-transform: rotate(20deg); } 
+  50% { -webkit-transform: rotate(20deg); } 
+  100% { -webkit-transform: rotate(-20deg); } 
+}
+@keyframes spin { 
+  0% { 
+    -webkit-transform: rotate(-20deg); 
+    transform:rotate(-20deg); 
+} 
+  25% { 
+      -webkit-transform: rotate(20deg); 
+      transform:rotate(20deg); 
+  } 
+  50% { 
+    -webkit-transform: rotate(20deg); 
+    transform:rotate(20deg); 
+} 
+  100% { 
+    -webkit-transform: rotate(-20deg); 
+    transform:rotate(-20deg); 
+} 
 }

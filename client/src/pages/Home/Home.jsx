@@ -10,15 +10,16 @@ const Home = () => {
   <header className="l-header" id="header">
     <nav className="nav bd-container">
       <a href="/" className="nav__logo">
-        Devcation 2022
+        Pryde &#127987;&#65039;&#8205;&#127752;
       </a>
       <div className="nav__menu" id="nav-menu">
         <ul className="nav__list">
-          <li className="nav__item">
+        <li className="nav__item">
             <a href="#about" className="nav__link ">
               About
             </a>
           </li>
+          {/* 
           <li className="nav__item">
             <a href="#theme" className="nav__link ">
               Theme
@@ -28,17 +29,15 @@ const Home = () => {
             <a href="#events" className="nav__link">
               Events
             </a>
-          </li>
+          </li> */}
           {/* <li class="nav__item"><a href="#timeline" class="nav__link">Timeline</a></li> */}
           <li className="nav__item">
-            <a href="/readingarea" className="nav__link">
-              Sponsors
+            <a href="#features" className="nav__link">
+             Features
             </a>
           </li>
-          <a href="#sponsors" className="nav__link"></a>
           <li className="nav__item">
-            <a href="#sponsors" className="nav__link" />
-            <a href="./view/team.html" className="nav__link">
+            <a href="#team" className="nav__link" >
               Team
             </a>
           </li>
@@ -62,38 +61,33 @@ const Home = () => {
     <section className="home" id="home">
       <div className="home__container bd-container bd-grid">
         <div className="home__img">
-          <img src="./img/pingu.png" alt="" />
+          <img src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687070027/3dheartrainbow-2_cbzjoi.png" alt="" className="vert-move"/>
         </div>
         <div className="home__data">
-          <h1 className="home__title">Welcome to Devcation'22</h1>
+          <h1 className="home__title">Pryde &#127987;&#65039;&#8205;&#127752;</h1>
           <p className="home__description">
-            Devcation is a week-long technical festival organized by GDSC
-            IGDTUW. <br /> A triathlon, which includes a designathon, ideathon,
-            and hackathon along with various knowledge-imparting and
-            recreational sessions.
+            Pryde aims to create an inclusive and supportive environment for the LGBTQ+ community to learn, discuss, and access information about sexual health. 
           </p>
         </div>
       </div>
     </section>
-    {/*========== About Devcation ==========*/}
+    {/*========== About ==========*/}
     <section className="share section bd-container" id="about">
       <div className="share__container bd-grid">
         <div className="share__data">
           <h2 className="section-title-center">
-            About <br /> Devcation 2022 🌍{" "}
+            How Pryde was Born? <br />{" "}
           </h2>
           <p className="share__description">
-            This event will act as a platform to attain knowledge and work on
-            projects in real-time and gain mentorship from the experts. It will
-            help beginners to kickstart their technical journey.
+          Our project was born from a case study that uncovered a misconception: lesbian women were not using protection as frequently as with male partners. This fueled our passion to bridge the gap between inadequate LGBTQ+ healthcare support and the need for accurate sexual health information. We aim to create a safe space that empowers individuals, fosters acceptance, and ensures that no one feels alone in their sexual health journey.
           </p>
         </div>
         <div className="share__img">
-          <img src="./img/world.png" alt="" />
+          <img src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687071718/pryde_graphics_b3ncuu.png" alt="" className='move-round'/>
         </div>
       </div>
     </section>
-    {/* ================ About GDSC IGDTUW ================= */}
+    {/* ================  =================
     <section className="share section bd-container" id="learn_more">
       <div className="share__container bd-grid">
         <div className="share__data">
@@ -113,7 +107,7 @@ const Home = () => {
       </div>
     </section>
     {/* =============Theme UN SDG============ */}
-    <section className="share section bd-container" id="theme">
+    {/* <section className="share section bd-container" id="theme">
       <div className="share__container bd-grid">
         <div className="share__data">
           <h2 className="section-title-center">Theme 🌟</h2>
@@ -129,90 +123,67 @@ const Home = () => {
           <img src="./img/SDG.png" alt="" />
         </div>
       </div>
-    </section>
+    </section>  */}
     {/*========== CATEGORIES ==========*/}
-    <section className="decoration section bd-container" id="events">
-      <h2 className="section-title">Events</h2>
+    <section className="decoration section bd-container" id="features">
+      <h2 className="section-title">Features of Pryde</h2>
       <div className="decoration__container bd-grid">
         <div className="decoration__data">
           <img
-            src="./img/Design.png"
+            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687072589/pryde_graphics-3_ylq42o.png"
             alt=""
             className="decoration__img"
             id="apple_render"
           />
-          <h3 className="decoration__title">Design 'n' Solve</h3>
+          <h3 className="decoration__title">Reading Area</h3>
+          <p>View a collection of resources related to sexual health and how you can stay safe physically and mentally. Spread love, be healthy, be you!</p><br></br>
           {/*<a href="./view/designsolve.html" class="button button-link">Details</a>*/}
           <div className="button">
             <a
-              href="./view/designsolve.html"
+              href="./readingArea"
               className="button-link"
               style={{ color: "white" }}
             >
-              Details
-            </a>
-          </div>
-          <div className="button">
-            <a
-              href="https://dare2compete.com/hackathon/designnsolve-devcation-indira-gandhi-delhi-technical-university-for-women-igdtuw-delhi-266079"
-              className="button-link"
-              style={{ color: "white" }}
-            >
-              Register
+              Try Here
             </a>
           </div>
         </div>
         <div className="decoration__data">
           <img
-            src="./img/Ideate.png"
+            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687072287/pryde_graphics-2_rnm5jd.png"
             alt=""
             className="decoration__img"
             id="burger_render"
           />
-          <h3 className="decoration__title">Ideate 'n' Solve</h3>
+          <h3 className="decoration__title">InclusiBot</h3>
+          <p>Co:here-powered chatbot for LGBTQ+ sexual health. Multilingual support with Azure Translator. Chat freely in your language!</p><br></br>
           <div className="button">
             <a
-              href="./view/ideatesolve.html"
+              href="https://prydebot.streamlit.app/"
+              target="_blank"
               className="button-link"
               style={{ color: "white" }}
             >
-              Details
-            </a>
-          </div>
-          <div className="button">
-            <a
-              href="https://dare2compete.com/hackathon/ideatensolve-devcation-266047"
-              className="button-link"
-              style={{ color: "white" }}
-            >
-              Register
+              Try Here
             </a>
           </div>
         </div>
         <div className="decoration__data">
           <img
-            src="./img/Hack.png"
+            src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687073260/pryde_graphics-4_t07meb.png"
             alt=""
             className="decoration__img"
             id="milk_render"
           />
-          <h3 className="decoration__title">Hack 'n' Solve</h3>
+          <h3 className="decoration__title">Forum d'amour</h3>
+          <p>An extensive community support forum for sexual health & hygiene. Get answers, collaborate, and empower yourself! </p><br></br>
           <div className="button">
             <a
               href="./view/hacksolve.html"
               className="button-link"
               style={{ color: "white" }}
             >
-              Details
-            </a>
-          </div>
-          <div className="button">
-            <a
-              href="./view/hacksolve.html"
-              className="button-link"
-              style={{ color: "white" }}
-            >
-              Register
+              Try Here
             </a>
           </div>
           {/*<div 
@@ -224,532 +195,40 @@ const Home = () => {
         </div>
       </div>
     </section>
-    {/* =============Timeline=============
 
-    <div id="timeline">
-<section class="intro">
-  <div class="container">
-    <h1>Event Timeline </h1>
-  </div>
-</section>
-
-<section class="timeline">
-  <ul>
-    <li>
-      <div>
-        <h1>04th March 2022</h1>
-        <p>Opening Ceremony</p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <h1>05th March 2022</h1>
-        <p>Design 'n' Solve</p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <h1>06th March 2022</h1>
-        <p>Ideate 'n' Solve</p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <h1>07th March 2022 - 11th March 2022</h1>
-        <p>Workshop and Fun Events</p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <h1>12th March 2022 - 13th March 2022</h1>
-        <p>Hack 'n' Solve</p>
-      </div>
-    </li>
-    <li>
-      <div>
-        <h1>14th March 2022</h1>
-        <p>Results and Closing Ceremony</p>
-      </div>
-    </li>
-    <!--<li>
-                      <div>
-                        <h1>1957</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <h1>1967</h1> <p>Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <h1>1977</h1> <p>Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <h1>1985</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <h1>2000</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <h1>2005</h1> <p>In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.</p>
-                      </div>
-                    </li>*/}
-    {/* ==========Speakers========== */}
-    <section className="share section bd-container" id="speakers">
-      <div className="share__container bd-grid">
-        <div className="share__img">
-          <img src="./img/Speaker.png" alt="" />
+    {/* Team */}
+    <section class="decoration section bd-container" id="team">
+      <h2 class="section-title">Team</h2>
+      <div class="decoration__container bd-grid team-grid">
+        <div class="decoration__data team_data">
+          <img src="https://hygenie-gsc.netlify.app/img/Team/pooja_gera.jpg" alt="" class="decoration__img" id="team_render"/>
+          <h3 class="decoration__title">Pooja Gera</h3>
+          <p>I speak Python &#128013; and I love solving problems with technology &#129302;.</p>
         </div>
-        <div className="share__data">
-          <h2 className="section-title-center"> Checkout The Schedule </h2>
-          <a href="./view/schedule.html" className="button">
-            Here!
-          </a>
-          {/* <a href="#" class="button">Learn More</a> */}
+        <div class="decoration__data team_data">
+          <img src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687075091/317756782_1982617338750339_6635398324002590526_n_sqauys.jpg"  alt="" class="decoration__img" id="team_render"/>
+          <h3 class="decoration__title">Jahnvi Srivastava</h3>
+          <p>tagline</p>
+        </div>
+        <div class="decoration__data team_data">
+          <img src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687075071/WhatsApp_Image_2023-06-18_at_1.24.29_PM_d7tjzm.jpg" alt="" class="decoration__img" id="team_render"/>
+          <h3 class="decoration__title">Sneha Chauhan</h3>
+          <p>tagline</p>
+        </div>
+        <div class="decoration__data team_data">
+          <img src="https://hygenie-gsc.netlify.app/img/Team/Karan-Taneja.jpeg" alt="" class="decoration__img" id="team_render"/>
+          <h3 class="decoration__title">Karan Taneja</h3>
+          <p>I think creatively to build sustainable technological solutions! &#128176;</p>
         </div>
       </div>
     </section>
-    {/* ==========Sponsors============ */}
-    <section id="sponsors" className="section ">
-      <div className="sponsor-container ">
-        <h1 className="section-title">Title Sponsor ⚡</h1>
-        <section className="customer-logos slider">
-          <div className="slide">
-            <a title="Devfolio" href="https://devfolio.co/">
-              <img
-                src="./img/Sponsor Logos/Title Sponsor/Devfolio_Logo-Colored.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Polygon" href="https://polygon.com/">
-              <img
-                src="./img/Sponsor Logos/Title Sponsor/Polygon_Logo-Colored.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="HoverRobotix" href="https://hoverrobotix.com/">
-              <img
-                src="./img/Sponsor Logos/Title Sponsor/HoverRobotix-logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Mentro" href="https://mentro.tech/">
-              <img
-                src="./img/Sponsor Logos/Title Sponsor/mentro-logo-01.png"
-                alt=""
-              />
-            </a>
-          </div>
-        </section>
-      </div>
-      <div className="sponsor-container">
-        <h1 className="section-title">Platinum Sponsor 💫</h1>
-        <section className="customer-logos slider">
-          <div className="slide">
-            <a title="Tezos" href="https://tezos.com/">
-              <img
-                src="img\Sponsor Logos\Platinum Sponsor\Tezos_Logo-Colored.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Filecoin" href="https://filecoin.io/">
-              <img
-                src="img\Sponsor Logos\Platinum Sponsor\Filecoin Coloured White Text.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Celo" href="https://celo.org/">
-              <img
-                src="img\Sponsor Logos\Platinum Sponsor\Celo Logo Color.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="GeeksForGeeks" href="https://geeksforgeeks.org/">
-              <img
-                src="img\Sponsor Logos\Platinum Sponsor\gfg-new-logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Digital Ocean" href="https://www.digitalocean.com/">
-              <img
-                src="img\Sponsor Logos\Platinum Sponsor\DO_Logo_Vertical_Blue.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Postman" href="https://www.postman.com/">
-              <img
-                src="img\Sponsor Logos\Platinum Sponsor\postman-logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Lumos Labs" href="https://www.lumoslabs.co/">
-              <img
-                src="img\Sponsor Logos\Platinum Sponsor\lumos-logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-        </section>
-      </div>
-      <div className="sponsor-container">
-        <h1 className="section-title">Gold Sponsor 🥇</h1>
-        <section className="customer-logos slider">
-          <div className="slide">
-            <a title="Lead Learners" href="https://www.leadlearners.ca/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\Leading_Learners_Logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Voiceflow" href="https://www.voiceflow.com/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\Voiceflow_Logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Taskade" href="https://taskade.com/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\taskade-logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Interview Buddy" href="https://interviewbuddy.in/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\logo-of-interviewbuddy.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Interview Cake" href="https://interviewcake.com/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\interview-cake.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Coding Ninjas" href="https://www.codingninjas.com/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\coding-ninjas-logo-white.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Wolfram" href="https://wolfram.com/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\wolfram-language-text-logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title=".XYZ" href="https://gen.xyz/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\xyz-logo-color.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="Divya Gera Foundation"
-              href="https://instagram.com/divyagerafoundation_"
-            >
-              <img src="img\Sponsor Logos\Gold Sponsor\dgf logo.png" alt="" />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Alan AI" href="https://alan.app/">
-              <img
-                src="img\Sponsor Logos\Gold Sponsor\alan-logo-horizontal-color.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="symbl.ai" href="https://symbl.ai/">
-              <img src="img\Sponsor Logos\Gold Sponsor\Symbl_logo.png" alt="" />
-            </a>
-          </div>
-        </section>
-      </div>
-      <div className="sponsor-container">
-        <h1 className="section-title">Silver Sponsor 🥈</h1>
-        <section className="customer-logos slider">
-          <div className="slide">
-            <a title="Echo3D" href="https://www.echo3d.co/">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\echo3D - Logo 2021 - Black.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Rosenfeld" href="https://rosenfeldmedia.com/">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\rosenfeld-logo.gif"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="Art Of Problem Solving"
-              href="https://artofproblemsolving.com/"
-            >
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\AoPS_Main_Logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Cybrancee" href="https://cybrancee.com/">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\Cybrancee-logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="WrapCart" href="https://www.wrapcart.com/">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\WrapCart_Logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="1password" href="https://1password.com">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\1P-wordmark.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Sketch" href="http://www.sketch.com/">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\Sketch-Logo-Light.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Clerky" href="https://www.clerky.com/">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\Clerky_Logo.jpg"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Axure" href="https://www.axure.com/">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\Axure_Logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Fueler" href="https://fueler.io/">
-              <img
-                src="img\Sponsor Logos\Silver Sponsor\fueler_logo.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="Cisco" href="https://www.cisco.com/c/en_in/index.html">
-              <img src="img/Sponsor Logos/Silver Sponsor/Cisco.png" alt="" />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="GitHub" href="https://github.com/">
-              <img src="img/Sponsor Logos/Silver Sponsor/GitHub.png" alt="" />
-            </a>
-          </div>
-        </section>
-      </div>
-      <div className="sponsor-container">
-        <h1 className="section-title">Community Partner 🌐</h1>
-        <section className="customer-logos slider">
-          <div className="slide">
-            <a title="Heiphen" href="https://heiphen.com/">
-              <img
-                src="img\Sponsor Logos\Community Partner\heipehn-dark.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="Technoliterati IGDTUW"
-              href="https://www.linkedin.com/company/technoliterati-igdtuw/mycompany/"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\TLit logo - Charanjeev Kaur.jpg"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="GeeksForGeeks IGDTUW"
-              href="https://instagram.com/geeksforgeeks.igdtuw?utm_medium=copy_link"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\GFG_official logo - GFG Igdtuw.jfif"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="GDSC NSUT"
-              href="https://www.linkedin.com/company/dscnsut/"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\GDSC_NSUT.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="GDSC GLAU"
-              href="https://www.linkedin.com/company/gdsc-glau/"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\GDSC_GLA.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="GDSC DIEMS"
-              href="https://www.linkedin.com/in/gdsc-diems-4ab938220/"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\GDSC_DIEMS.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="Thapar ACM"
-              href="https://www.linkedin.com/company/thapar-acm-student-chapter/mycompany/"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\thapar_ACM.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="ACM IGDTUW"
-              href="https://www.linkedin.com/company/acm-student-chapter-igdtuw"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\ACM- IGDTUW Student Chapter.jpg"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="Mozilla Firefox Club VIT Bhopal"
-              href="https://www.linkedin.com/company/mozilla-firefox-club-vit-bhopal/"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\Mozilla Firefox VIT-Bhopal.jpeg"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a
-              title="Eduhub Community"
-              href="https://www.linkedin.com/company/eduhub-community"
-            >
-              <img
-                src="img\Sponsor Logos\Community Partner\eduhub.png"
-                alt=""
-              />
-            </a>
-          </div>
-          <div className="slide">
-            <a title="MLSA" href="https://studentambassadors.microsoft.com/">
-              <img src="img\Sponsor Logos\Community Partner\MLSA.png" alt="" />
-            </a>
-          </div>
-        </section>
-      </div>
-      <div className="sponsor-container">
-        <h1 className="section-title">Streaming and Media Partner 🎥</h1>
-        <div className="sponsor-logo">
-          <a title="Streamyard" href="https://streamyard.com/">
-            <img
-              src="img\Sponsor Logos\Streaming and Media Partner\streamyard-logo.png"
-              alt=""
-            />
-          </a>
-        </div>
-      </div>
-      <div className="sponsor-container">
-        <h1 className="section-title">Certificate Partner 📜</h1>
-        <div className="sponsor-logo">
-          <a title="Give My Certificate" href="https://givemycertificate.com/">
-            <img
-              src="img\Sponsor Logos\Certificate Partner\gmc_logo.png"
-              alt=""
-            />
-          </a>
-        </div>
-      </div>
-    </section>
+
     {/*========== FOOTER (Socials) ==========*/}
     <section className="footer " id="contact_us">
       <div className="footer__container bd-container bd-grid">
         <div className="footer__social">
           <h2 className="footer__title" style={{ color: "white" }}>
-            Contact us at:
+            Built with &#129293; by Team Pryde
           </h2>
           <div className="footer__icons">
             <a
