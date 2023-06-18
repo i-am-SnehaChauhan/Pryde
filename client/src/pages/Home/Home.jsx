@@ -208,7 +208,7 @@ const Home = () => {
         <div class="decoration__data team_data">
           <img src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687075091/317756782_1982617338750339_6635398324002590526_n_sqauys.jpg"  alt="" class="decoration__img" id="team_render"/>
           <h3 class="decoration__title">Jahnvi Srivastava</h3>
-          <p>tagline</p>
+          <p>With the Heart of a Problem Solver, I meticulously craft Real-World Solutions that make a difference &#128161;&#x2728;</p>
         </div>
         <div class="decoration__data team_data">
           <img src="https://res.cloudinary.com/dzy4r0fgy/image/upload/v1687075071/WhatsApp_Image_2023-06-18_at_1.24.29_PM_d7tjzm.jpg" alt="" class="decoration__img" id="team_render"/>

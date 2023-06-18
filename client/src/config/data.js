@@ -1,15 +1,12 @@
 export const blogList = [
     {
       id: 1,
-      title: '7 CSS tools you should be using ',
-      category: 'development',
-      subCategory: ['frontend', 'ui/ux', 'design'],
+      title: 'Comprehensive Safer Sex Practices',
+      category: 'Safer Sex and Sexual Health',
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      authorName: 'John Doe',
-      authorAvatar: '/assets/images/author.png',
-      createdAt: 'June 03, 2023',
+       "Maintaining sexual health is crucial for a fulfilling and safe intimate life. Safer sex practices are essential for reducing the risk of sexually transmitted infections (STIs) and unintended pregnancies. In this blog, we will explore various methods of safer sex, including condom use, dental dams, and gloves, and how they can be utilized for different types of sexual activities. By adopting these practices, you can prioritize your well-being and enjoy intimate moments with peace of mind.\n\nCondom Use:\nCondoms are one of the most effective tools for practicing safer sex. They provide a barrier between partners, preventing the exchange of bodily fluids and reducing the risk of STIs. Here are some key points to remember:\n\na. Penetrative Sex:\nFor vaginal or anal sex, use a latex or polyurethane condom. Ensure it is in good condition, within its expiration date, and stored correctly (away from heat and sharp objects). Use a new condom for each act of intercourse and follow these steps:\n\nCarefully open the condom packet to avoid tearing the condom.\nPinch the tip of the condom to leave space for semen collection.\nRoll the condom down the erect penis, ensuring it covers the entire shaft.\nAfter ejaculation, hold the base of the condom to prevent slippage and withdraw.\n\nb. Oral Sex:\nAlthough the risk of STIs during oral sex is generally lower, it's still essential to take precautions. Consider using flavored or non-flavored condoms for oral sex on a penis. This provides protection while adding a pleasurable experience for both partners. Unroll the condom over the penis before engaging in oral activity.\n\nDental Dams:\nDental dams are thin, flexible barriers made from latex or polyurethane. They are specifically designed for oral-vaginal or oral-anal stimulation. Dental dams act as a barrier between the mouth and the genitals, reducing the transmission of STIs. Here's how to use a dental dam effectively:\n\na. Preparation:\nEnsure the dental dam is stored properly, free from damage or expiration. If using a latex glove or condom as a substitute, cut off the tip and make a vertical incision to create a flat barrier.\n\nb. Application:\nLay the dental dam or substitute flat against the vulva or anus and hold it in place throughout oral play. Avoid flipping it over and refrain from reusing it to minimize the risk of cross-contamination.\n\nGloves:\nGloves are useful for activities involving manual stimulation, such as fingering, fisting, or anal play. They create a barrier between the hand and the genital area, protecting against STIs and reducing the risk of transmission. Follow these guidelines when using gloves:\n\na. Selection:\nChoose non-latex gloves if you or your partner have a latex allergy. Ensure the gloves are in good condition, powder-free, and non-permeable.\n\nb. Usage:\nBefore engaging in manual stimulation, put on a new glove. Apply a water-based lubricant on the glove to enhance comfort and reduce friction. Avoid touching other surfaces or areas without changing gloves to maintain hygiene.\n\nConclusion:\nPrioritizing safer sex practices is essential for maintaining a healthy and enjoyable intimate life. By using condoms, dental dams, and gloves correctly, you can significantly reduce the risk of STIs and unintended pregnancies. Remember to communicate openly with your partner(s) about sexual health, get tested regularly, and consider vaccination options for specific STIs like HPV and hepatitis B. By being proactive and informed, you can take charge of your sexual well-being and enjoy fulfilling intimate experiences with peace of mind. Stay safe, stay healthy!\n\nDisclaimer: This blog provides general information about safer sex practices and does not substitute professional medical advice. Please consult healthcare professionals for personalized guidance regarding your sexual health.",
       cover: './assets/images/cover1.png',
+      backgroundColor: "#FF6663",
     },
     {
       id: 2,
@@ -22,6 +19,7 @@ export const blogList = [
       authorAvatar: '/assets/images/author.png',
       createdAt: 'June 03, 2021',
       cover: './assets/images/cover3.png',
+      backgroundColor: "#FEB144",
     },
     {
       id: 3,
@@ -34,6 +32,7 @@ export const blogList = [
       authorAvatar: '/assets/images/author.png',
       createdAt: 'June 03, 2021',
       cover: './assets/images/cover4.png',
+      backgroundColor: "#f8d568",
     },
     {
       id: 4,
@@ -46,6 +45,7 @@ export const blogList = [
       authorAvatar: '/assets/images/author.jpg',
       createdAt: 'June 03, 2021',
       cover: '/assets/images/cover2.webp',
+      backgroundColor:  "#9EE09E",
     },
     {
       id: 5,
@@ -58,6 +58,7 @@ export const blogList = [
       authorAvatar: '/assets/images/author.jpg',
       createdAt: 'June 03, 2021',
       cover: '/assets/images/cover1.png',
+      backgroundColor: "#9EC1CF",
     },
     {
       id: 6,
@@ -71,6 +72,7 @@ export const blogList = [
       createdAt: 'June 03, 2021',
       cover:
         '/assets/images/cover3.png',
+        backgroundColor: "#CC99C9",
     },
     {
       id: 7,
@@ -83,5 +85,6 @@ export const blogList = [
       authorAvatar: '/assets/images/author.jpg',
       createdAt: 'June 03, 2021',
       cover: '/assets/images/cover3.png',
+      backgroundColor: '#FF6663',
     },
   ];
