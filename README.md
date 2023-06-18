@@ -20,7 +20,23 @@ Motivated by our newfound awareness and fueled by a shared passion for promoting
 
 With this project, we aspire to create a platform that not only addresses the specific concerns and experiences of LGBTQ+ individuals but also fosters a sense of belonging, acceptance, and empowerment. Our ultimate goal is to ensure that no one within the LGBTQ+ community feels alone or left in the dark when it comes to their sexual health. We believe that by providing accurate information, fostering open dialogue, and promoting safe practices, we can contribute to the physical and mental well-being of the community we hold dear.
 
-<h2 align='center'> Features</h2>
+## Components of Website
+
+### Landing page
+ <p>When you visit our website, you'll be greeted by an engaging landing page that captures the essence of Pryde.</p>
+ 
+  ![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/bd63150b-4aa1-40bc-a60f-1c6b8275d0f2)
+
+### About Us
+ 
+ ![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/cb92a7fa-5dff-4019-ac1d-43e87ba9d545)
+
+## Key Features✨
+<p>Our platform provides Pryde Bot, Reading Area and Forum</p>.
+
+![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/8df0cda4-fe7a-4784-9f24-4db9f7554e25)
+
+
 
 <h2 align='center'> Technology Stack Used</h2>
 <div align="center">
@@ -34,3 +50,7 @@ With this project, we aspire to create a platform that not only addresses the sp
  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
  <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white">
 </div>
+
+<h2 align='cener'>Contibutors</h2>
+
+![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/d6697bb7-dd02-453c-b7a3-40fa5bcddc69)
