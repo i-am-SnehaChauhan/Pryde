@@ -7,14 +7,12 @@ import ReadingArea from './pages/ReadingArea/ReadingArea';
 
 function App() {
   return (
-    <BrowserRouter>
       <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/accounts' element={<Login />} />
       <Route path='/readingarea' element={<ReadingArea/>} />
       <Route path='/blog/:id' element={<Blog/>} />
       </Routes>
-    </BrowserRouter>
   );
 }
 
