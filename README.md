@@ -22,7 +22,7 @@ With this project, we aspire to create a platform that not only addresses the sp
 
 ## Features 
 
-## Tech Stack 
+<h1 align='center'> Technology Stack Used</h1>
 <div align="center">
  <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white">
  <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white">
