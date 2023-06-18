@@ -20,9 +20,9 @@ Motivated by our newfound awareness and fueled by a shared passion for promoting
 
 With this project, we aspire to create a platform that not only addresses the specific concerns and experiences of LGBTQ+ individuals but also fosters a sense of belonging, acceptance, and empowerment. Our ultimate goal is to ensure that no one within the LGBTQ+ community feels alone or left in the dark when it comes to their sexual health. We believe that by providing accurate information, fostering open dialogue, and promoting safe practices, we can contribute to the physical and mental well-being of the community we hold dear.
 
-## Features 
+<h2 align='center'> Features</h2>
 
-<h1 align='center'> Technology Stack Used</h1>
+<h2 align='center'> Technology Stack Used</h2>
 <div align="center">
  <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white">
  <img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white">
