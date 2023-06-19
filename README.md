@@ -67,6 +67,6 @@ With this project, we aspire to create a platform that not only addresses the sp
  <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white">
 </div>
 
-<h1 align='center'>Contibutors</h1>
+<h1 align='center'>Contributors</h1>
 
 ![image](https://github.com/i-am-SnehaChauhan/Pryde/assets/94298791/d6697bb7-dd02-453c-b7a3-40fa5bcddc69)
